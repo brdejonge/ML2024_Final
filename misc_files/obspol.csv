@@ -1,4 +1,6 @@
-# PD and PA using xStokesAnalysis class from ixpeobssim. Seems much closer to xpqlt. Suspect only deviation is from not background subtracting, but on average that should not affect the PA really. Just decrease the PD. 
+# PD and PA using xStokesAnalysis class from ixpeobssim. Seems much closer to xpqlt. Suspect only deviation is from not background subtracting,
+# but on average that should not affect the PA really. Just decrease the PD. Also technically is using the same mod and effective area for all 3 detectors,
+# but for our purposes it shouldn't really change much at all.
 obs,PD,dPD,PA,dPA
 smc_x-1/02007201,0.04458111418843666,0.013166519536012326,77.30679052814124,8.461414317609531
 smc_x-1/02007101,0.02399065376072488,0.011505671566959917,85.42435357970926,13.739506470728795
